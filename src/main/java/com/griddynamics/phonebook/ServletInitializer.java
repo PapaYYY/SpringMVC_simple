@@ -1,4 +1,4 @@
-package com.griddynamics.phonebook.phonebookspringmvc;
+package com.griddynamics.phonebook;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

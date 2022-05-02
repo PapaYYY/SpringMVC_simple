@@ -1,8 +1,8 @@
-package com.griddynamics.phonebook.phonebookspringmvc.service;
+package com.griddynamics.phonebook.service;
 
 import com.google.common.collect.ImmutableList;
-import com.griddynamics.phonebook.phonebookspringmvc.exception.ResourceNotFoundException;
-import com.griddynamics.phonebook.phonebookspringmvc.model.Record;
+import com.griddynamics.phonebook.exception.ResourceNotFoundException;
+import com.griddynamics.phonebook.model.Record;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 

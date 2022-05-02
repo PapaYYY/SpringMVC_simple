@@ -1,7 +1,7 @@
-package com.griddynamics.phonebook.phonebookspringmvc.service;
+package com.griddynamics.phonebook.service;
 
-import com.griddynamics.phonebook.phonebookspringmvc.exception.ResourceNotFoundException;
-import com.griddynamics.phonebook.phonebookspringmvc.model.Record;
+import com.griddynamics.phonebook.model.Record;
+import com.griddynamics.phonebook.exception.ResourceNotFoundException;
 
 import java.util.List;
 
@@ -16,5 +16,6 @@ public interface PhoneBookService {
     Record updateRecord(String name, Record record) throws ResourceNotFoundException;
 
     Record deleteRecord(String name) throws ResourceNotFoundException;
+    
 }
     

@@ -1,4 +1,4 @@
-package com.griddynamics.phonebook.phonebookspringmvc;
+package com.griddynamics.phonebook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

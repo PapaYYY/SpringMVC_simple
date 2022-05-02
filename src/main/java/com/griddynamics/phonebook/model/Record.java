@@ -1,11 +1,11 @@
-package com.griddynamics.phonebook.phonebookspringmvc.model;
+package com.griddynamics.phonebook.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.validation.constraints.NotEmpty;
-import java.util.List;
+import java.util.Set;
 
 @NoArgsConstructor
 @Getter
@@ -16,5 +16,5 @@ public class Record {
     private String name;
 
     @NotEmpty
-    private List<String> phoneNumbers;
+    private Set<String> phoneNumbers;
 }

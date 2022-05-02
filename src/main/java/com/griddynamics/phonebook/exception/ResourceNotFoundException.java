@@ -1,4 +1,4 @@
-package com.griddynamics.phonebook.phonebookspringmvc.exception;
+package com.griddynamics.phonebook.exception;
 
 public class ResourceNotFoundException extends Exception {
     private static final long serialVersionUID = 1L;

@@ -1,8 +1,8 @@
-package com.griddynamics.phonebook.phonebookspringmvc.controller;
+package com.griddynamics.phonebook.controller;
 
-import com.griddynamics.phonebook.phonebookspringmvc.exception.ResourceNotFoundException;
-import com.griddynamics.phonebook.phonebookspringmvc.model.Record;
-import com.griddynamics.phonebook.phonebookspringmvc.service.PhoneBookService;
+import com.griddynamics.phonebook.exception.ResourceNotFoundException;
+import com.griddynamics.phonebook.model.Record;
+import com.griddynamics.phonebook.service.PhoneBookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

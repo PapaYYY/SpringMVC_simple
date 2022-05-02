@@ -1,6 +1,6 @@
-package com.griddynamics.phonebook.phonebookspringmvc.advice;
+package com.griddynamics.phonebook.advice;
 
-import com.griddynamics.phonebook.phonebookspringmvc.exception.ResourceNotFoundException;
+import com.griddynamics.phonebook.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

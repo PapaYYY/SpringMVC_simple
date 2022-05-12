@@ -27,7 +27,7 @@ public class PhoneBookController {
     }
 
     // Update
-    @PutMapping("/phoneBook/{name}/{phone}")
+    @PatchMapping("/phoneBook/{name}/{phone}")
     public Record updateRecord(@PathVariable String name, @PathVariable String phone) {
         return phoneBookService.updateRecord(name, phone);
     }
